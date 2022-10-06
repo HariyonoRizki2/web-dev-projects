@@ -58,23 +58,25 @@ export const Contact = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <h2>Get In Touch</h2>
-                <form onSubmit={handleSubmit}>
+                <h2>Mari Terhubung!</h2>
+                <form action="https://formsubmit.co/nabilaputridwianjani526@gmail.com" method="POST" onSubmit={handleSubmit}>
+                  <input type="hidden" name="_subject" value="Koneksi Baru! - Kontak Profile">
+                  <input type="hidden" name="_captcha" value="false">
                   <Row>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="text" value={formDetails.firstName} placeholder="First Name" onChange={(e) => onFormUpdate('firstName', e.target.value)} />
+                      <input type="text" name="Nama Depan" value={formDetails.firstName} placeholder="Nama Depan" onChange={(e) => onFormUpdate('firstName', e.target.value)} />
                     </Col>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="text" value={formDetails.lasttName} placeholder="Last Name" onChange={(e) => onFormUpdate('lastName', e.target.value)}/>
+                      <input type="text" name="Nama Belakang" value={formDetails.lasttName} placeholder="Nama Belakang" onChange={(e) => onFormUpdate('lastName', e.target.value)}/>
                     </Col>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="email" value={formDetails.email} placeholder="Email Address" onChange={(e) => onFormUpdate('email', e.target.value)} />
+                      <input type="email" name="Alamat Email" value={formDetails.email} placeholder="Alamat Email" onChange={(e) => onFormUpdate('email', e.target.value)} />
                     </Col>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="tel" value={formDetails.phone} placeholder="Phone No." onChange={(e) => onFormUpdate('phone', e.target.value)}/>
+                      <input type="tel" name="Whatsapp" value={formDetails.phone} placeholder="Nomor Whatsapp" onChange={(e) => onFormUpdate('phone', e.target.value)}/>
                     </Col>
                     <Col size={12} className="px-1">
-                      <textarea rows="6" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
+                      <textarea rows="6" name="Pesan" value={formDetails.message} placeholder="Pesan" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
                       <button type="submit"><span>{buttonText}</span></button>
                     </Col>
                     {
