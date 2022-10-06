@@ -7,9 +7,15 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import { Helmet } from 'react-helmet';
 
 function App() {
   return (
+    <div>
+      <Helmet>
+        <title>Portfolio - KIKI</title>
+      </Helmet>
+        <div>
     <div className="App">
       <NavBar />
       <Banner />
