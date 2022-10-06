@@ -58,7 +58,7 @@ export const Banner = () => {
                 <span className="tagline">Selamat Datang!</span>
                 <h1>{`Hai! Aku KIKI.`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Fotografer", "Videografer", "Editor" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                  <button onClick={() => console.log('connect')}>Kontak <ArrowRightCircle size={25} /></button>
+                  <button onClick="window.location.href='./cv.pdf'">Kontak <ArrowDownCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
