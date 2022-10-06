@@ -59,9 +59,7 @@ export const Contact = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <h2>Mari Terhubung!</h2>
-                <form action="https://formsubmit.co/nabilaputridwianjani526@gmail.com" method="POST" onSubmit={handleSubmit}>
-                  <input type="hidden" name="_subject" value="Koneksi Baru! - Kontak Profile">
-                  <input type="hidden" name="_captcha" value="false">
+                <form onSubmit={handleSubmit}>
                   <Row>
                     <Col size={12} sm={6} className="px-1">
                       <input type="text" name="Nama Depan" value={formDetails.firstName} placeholder="Nama Depan" onChange={(e) => onFormUpdate('firstName', e.target.value)} />
