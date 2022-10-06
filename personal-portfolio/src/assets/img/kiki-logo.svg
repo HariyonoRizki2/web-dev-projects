@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="500px" height="500px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 500 500"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+   <clipPath id="id0" style="clip-rule:nonzero">
+    <path d="M192 180l-38 36 34 34 0 28 -29 0 0 -24 -22 -22 -31 30 0 16 -30 17 0 -115 30 0 0 48 51 -48 35 0z"/>
+   </clipPath>
+   <clipPath id="id1" style="clip-rule:nonzero">
+    <path d="M240 278l-30 17 0 -115 30 0 0 98z"/>
+   </clipPath>
+   <clipPath id="id2" style="clip-rule:nonzero">
+    <path d="M377 180l-38 36 35 34 0 28 -30 0 0 -24 -22 -22 -31 30 0 16 -30 17 0 -115 30 0 0 48 51 -48 35 0z"/>
+   </clipPath>
+   <clipPath id="id3" style="clip-rule:nonzero">
+    <path d="M425 278l-29 17 0 -115 29 0 0 98z"/>
+   </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g style="clip-path:url(#id0)">
+   <image x="76" y="180" width="115" height="115" xlink:href="kiki-logo_Images\kiki-logo_ImgID1.png"/>
+  </g>
+  <g style="clip-path:url(#id1)">
+   <image x="210" y="180" width="29.4721" height="114.578" xlink:href="kiki-logo_Images\kiki-logo_ImgID2.png"/>
+  </g>
+  <g style="clip-path:url(#id2)">
+   <image x="261" y="180" width="115" height="115" xlink:href="kiki-logo_Images\kiki-logo_ImgID3.png"/>
+  </g>
+  <g style="clip-path:url(#id3)">
+   <image x="396" y="180" width="29.4721" height="114.578" xlink:href="kiki-logo_Images\kiki-logo_ImgID4.png"/>
+  </g>
+ </g>
+</svg>
